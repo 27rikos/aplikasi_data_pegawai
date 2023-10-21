@@ -55,7 +55,7 @@
                                                                   <td>{{ $item->nama}}</td>
                                                               </tr>
                                                               <tr>
-                                                                  <th>NAMA</th>
+                                                                  <th>NAMA PEGAWAI</th>
                                                                     <td>:</td>
                                                                   <td>{{ $item->nip }}</td>
                                                               </tr>
