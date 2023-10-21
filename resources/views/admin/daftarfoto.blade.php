@@ -11,7 +11,7 @@
             <div class="card mb-3 text-center shadow" style="width: 18rem;height:27rem">
                 <div class="card-header">
                    <h6 class="mt-2"> {{ $item->nama }}</h6>
-                   <p><small>{{ $item->nip }}</small></p>
+                   <p><small>{{ $item->nip }}</small></p> 
                 </div>
                 <div class="card-body">
                  <img src="{{ asset('storage/pegawai_foto/'.$item->file) }}" alt=".." id="profile" class="rounded-circle" style="width:200px;height:200px"> <hr>

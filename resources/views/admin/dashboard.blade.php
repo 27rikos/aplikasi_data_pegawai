@@ -19,6 +19,7 @@
                     <th>AKSI</th>
                 </tr>
             </thead>
+            
             <tbody>
                 @foreach ($datas as $item)
                     <tr>
@@ -49,7 +50,7 @@
                                                           <div class="col ">
                                                           <table class="table table-stripped">
                                                               <tr>
-                                                                  <th>NPM</th>
+                                                                  <th>NIP</th>
                                                                   <td>:</td>
                                                                   <td>{{ $item->nama}}</td>
                                                               </tr>
